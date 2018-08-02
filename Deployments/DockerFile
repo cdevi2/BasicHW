@@ -1,0 +1,7 @@
+COPY SpringMVCHelloWorldExample.war ${JBOSS_HOME}/standalone/deployments/SpringMVCHelloWorldExample.war 
+ 
+ 
+COPY /configuration/*.xml ${JBOSS_HOME}/standalone/configuration/ 
+
+ 
+COPY /modules/* ${JBOSS_HOME}/proivded_modules/ 
